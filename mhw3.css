@@ -2,7 +2,7 @@ nav{
     display: flex;
     height: 5%;
     justify-content: space-between;
-    margin-top: 0.8%; 
+    margin-top: .8%; 
     position: absolute;
     right:0;
     left:2%;
@@ -11,9 +11,8 @@ header{
     width: 100%;
 }
 #header{
-    width: 155vh;
     color: rgb(255, 255, 255);
-    font-size:1.6em;
+    font: size 160%;;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #links{
@@ -79,6 +78,8 @@ h1{
     position: absolute;
     bottom: 45%;
     text-align: center;
+    height: 70%;
+    font-size: 1.5em;
 }
 
 h1 strong{
